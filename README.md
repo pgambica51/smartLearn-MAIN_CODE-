@@ -16,6 +16,8 @@ In the following sections, we will cover the technical details of the platform, 
 6.	Testing: The description of the testing process, types of testing, test frameworks and tools used.
 7.	Future Enhancements: The list of potential future enhancements to the platform, explanation of how these enhancements would improve the platform, estimated timeline and priority for implementing these enhancements.
 In summary, SmartLearn is a versatile and intuitive ed-tech platform that is designed to provide an immersive learning experience to students and a platform for instructors to showcase their expertise. In the following sections, we will delve into the technical details of the platform, which will provide a comprehensive understanding of the platform's features and functionalities.
+
+
  
 System Architecture
 The SmartLearn ed-tech platform consists of three main components: the front end, the back end, and the database. The platform follows a client-server architecture, with the front end serving as the client and the back end and database serving as the server.
@@ -28,7 +30,8 @@ The database for the platform is built using MongoDB, which is a NoSQL database 
 Architecture Diagram
 Here is a high-level diagram that illustrates the architecture of the SmartLearn ed-tech platform:
  
- 
+
+ 
 Front-end
 The front end is part of the platform that the user interacts with. It's like the "face" of the platform that the user sees and interacts with. 
 The front end of SmartLearn has all the necessary pages that an ed-tech platform should have. Some of these pages are:
@@ -51,7 +54,9 @@ For Admin (this is for future scope):
 −	Instructor Management: This page will allow the admin to manage the platform's instructors, including their account details, courses, and ratings.
 −	Other Relevant Pages: The admin will also have access to other relevant pages, such as user management and course management pages.
 To build the front end, we use frameworks and libraries such as ReactJS, which is a popular JavaScript library for building user interfaces. We also use CSS and Tailwind, which are styling frameworks that help make the user interface look good and responsive. Additionally, we use some npm packages to add extra functionality to the front end. To manage the state of the application, we use Redux, which is a popular state management library for React. Finally, we use a development environment called VSCode, which is a popular code editor, to develop the front end.
- 
+
+
+ 
 Back-end
 Description of the Back-end Architecture:
 SmartLearn uses a monolithic architecture, with the backend built using Node.js and Express.js, and MongoDB as the primary database. Monolithic architecture refers to a design approach where all the modules of the application are combined into a single large program, with a single codebase, to enable better control, security, and performance.
@@ -78,7 +83,9 @@ The back end of SmartLearn uses a range of data models and database schemas to m
 3.	Course schema: Includes fields such as course name, description, instructor details, and media content.
 Overall, the back-end of SmartLearn is designed to provide a robust and scalable solution for an ed-tech platform, with a focus on security, reliability, and ease of use. By using the right frameworks, libraries, and tools, we can ensure that the platform functions smoothly and provides an optimal user experience for all its users.
 
- 
+
+
+ 
 API Design:
 The SmartLearn platform's API is designed following the REST architectural style. The API is implemented using Node.js and Express.js. It uses JSON for data exchange and follows standard HTTP request methods such as GET, POST, PUT, and DELETE.
 Sample list of API endpoints and their functionalities:
